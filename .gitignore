@@ -1,1 +1,18 @@
-Info_WARNING.txt
+# Ignore a specific file
+secret_config.json
+
+# Ignore an entire directory (always add a trailing slash)
+node_modules/
+build/
+
+# Ignore all files ending with a specific extension (wildcard)
+*.log
+*.tmp
+
+# Ignore all .env files, but do NOT ignore .env.example (negation)
+.env*
+!.env.example
+
+# Ignore a file at the root level only (not in subdirectories)
+/error.log
+/Info_WARNING.txt

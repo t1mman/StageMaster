@@ -14,3 +14,7 @@ git push -u origin main
 git remote add origin https://github.com/t1mman/StageMaster.git
 git branch -M main
 git push -u origin main
+
+Commit stuff: 
+git commit -m "info"
+git push -u origin main
