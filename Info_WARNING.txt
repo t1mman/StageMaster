@@ -1,0 +1,16 @@
+Git is on e:\MOTJAW
+Change and commit there then backup here
+
+
+echo "# StageMaster" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/t1mman/StageMaster.git
+git push -u origin main
+
+
+git remote add origin https://github.com/t1mman/StageMaster.git
+git branch -M main
+git push -u origin main
